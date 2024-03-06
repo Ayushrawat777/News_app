@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background-color: #212529;
+  padding: 7px 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+}
+.btn:hover {
+  background-color: #44494f;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: 7px 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+}
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #cc2b2b;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 14px;
+  padding: 4px 8px;
+}
+.loading {
+  text-align: center;
+}
+.heading {
+  margin: 35px 0px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 500;
+}
+.container {
+  margin: 0px 5%;
+  padding: 0px 2%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  place-content: center;
+}
+.card-container {
+  width: 32%;
+  border: 1px solid #bfbdbd;
+  border-radius: 5px;
+  flex-basis: min-content;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+.card img {
+  width: 26rem;
+  height: 14.5rem;
+  border-radius: 5px 5px 0 0;
+}
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.card-text {
+  margin-bottom: 1rem;
+}
+.text-muted {
+  font-size: 0.87rem;
+  color: gray;
+}
+.card-body {
+  margin: 1rem;
+}
+
+.navbar {
+  padding: 1.5rem 0;
+  background: #1e2020;
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem;
+  align-items: center;
+}
+.navbar-brand {
+  text-decoration: none;
+  color: rgb(229, 223, 223);
+  font-size: 22px;
+}
+.navbar-collapse {
+}
+.navbar-collapse ul {
+}
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav li {
+  padding-inline: 10px;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(178, 169, 169);
+}
+.btn-btn {
+  width: 8rem;
+}
+.btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 2rem;
+}
